@@ -1,0 +1,32 @@
+{
+  "name": "mongo_scraping",
+  "version": "1.0.0",
+  "description": "App that will scrape news site for news stories and allow users to comment on utilzing cheerio and mongodb.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpmos10/mongo_scraping.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "cherrio"
+  ],
+  "author": "Jason Mosley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpmos10/mongo_scraping/issues"
+  },
+  "homepage": "https://github.com/jpmos10/mongo_scraping#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.7.2",
+    "request": "^2.79.0"
+  }
+}
